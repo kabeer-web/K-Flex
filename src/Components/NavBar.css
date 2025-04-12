@@ -1,0 +1,183 @@
+/* Navbar Container */
+.navbar {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease;
+}
+
+/* Sticky Navbar */
+.sticky-top {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow on scroll */
+}
+
+/* Navbar Links */
+.nav-link {
+    color: #333; /* Dark text */
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and animation */
+    margin-right: 15px;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #feb500; /* Logo color on hover and active link */
+    transform: scale(1.1); /* Slightly enlarge text on hover */
+}
+
+/* Dropdown */
+.dropdown-toggle {
+    color: #333 !important; /* Dark text */
+    background-color: #ffffff !important; /* White background */
+    border: none !important; /* No border */
+    padding: 10px 20px;
+    font-weight: 600; /* Bold text */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.dropdown-toggle:hover {
+    background-color: #feb500; /* Logo color on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #ffffff !important; /* White background */
+    border: none; /* No border */
+    padding: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: opacity 0.3s ease-in-out; /* Smooth dropdown animation */
+}
+
+.dropdown-menu a {
+    padding: 10px 20px; /* Adequate padding */
+    color: #333; /* Dark text */
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #feb500; /* Logo color on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Button */
+.btn-outline-dark {
+    border-color: #feb500; /* Border matching logo color */
+    color: #feb500; /* Text matching logo color */
+}
+
+.btn-outline-dark:hover {
+    background-color: #feb500; /* Background matching logo color */
+    color: #ffffff; /* White text */
+}
+
+/* Cart Icon */
+.cart-icon {
+    color: #333; /* Dark text */
+    position: relative;
+    transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+
+.cart-icon:hover {
+    color: #feb500; /* Logo color on hover */
+}
+
+.cart-icon .badge {
+    background-color: #feb500; /* Logo color for cart badge */
+    color: #fff; /* White text */
+}
+
+/* Search Bar */
+.form-control {
+    background-color: #fff8e1; /* Light yellow background matching logo color */
+    color: #333; /* Dark text */
+    border: 1px solid #feb500; /* Border matching logo color */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 15px;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.form-control:focus {
+    background-color: #fff; /* White background on focus */
+    border-color: #feb500; /* Border color matching logo */
+    box-shadow: 0 0 8px rgba(254, 181, 0, 0.5); /* Subtle shadow on focus */
+}
+
+/* Search Button */
+.search-button {
+    background-color: #feb500; /* Logo color */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Rounded button */
+    padding: 10px;
+    margin-left: 10px;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.search-button:hover {
+    background-color: #e68900; /* Darker shade of logo color */
+    transform: scale(1.1); /* Slight scale on hover */
+}
+
+/* Navbar Toggle Button */
+.custom-toggler {
+    border: none;
+    background: #ffffff; /* White background */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-toggler:hover {
+    background: #f2f2f2; /* Light gray on hover */
+    transform: scale(1.1); /* Slight scale on hover */
+}
+
+.custom-toggler-icon {
+    color: #333; /* Dark icon color */
+    font-size: 22px;
+}
+
+/* Animating Text in Nav */
+.navbar .nav-link {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #feb500; /* Logo color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Dropdown Animation */
+.dropdown-menu {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+}
+
+/* Navbar Logo */
+.navbar .navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar .navbar-brand:hover img {
+    transform: scale(1.1); /* Enlarge logo on hover */
+}
