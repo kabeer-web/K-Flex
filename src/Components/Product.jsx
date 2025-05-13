@@ -3,13 +3,28 @@ import image1 from './images/shirt 1.jpg';
 import image2 from './images/shirt 2.jpg';
 import image3 from './images/shirt 3.jpg';
 import image4 from './images/shirt 4.jpg';
-import image6 from './images/shirt 5.jpg';
-import image7 from './images/shirt 6.jpg';
-import image8 from './images/shirt 7.jpg';
-import image20 from './images/shirt 8.jpg';
+import image6 from './images/shirt 6.jpg';
+import image7 from './images/shirt 7.jpg';
+import image8 from './images/shirt 8.jpg';
 import image9 from './images/shirt 9.jpg';
 import image10 from './images/shirt 10.jpg';
 import image11 from './images/shirt 11.jpg';
+import image12 from './images/shirt 12.jpeg';
+import image13 from './images/shirt 13.jpeg';
+import image14 from './images/shirt 14.jpeg'
+import image15 from './images/shirt 15.jpeg';
+import image16 from './images/shirt 16.jpeg';
+import image17 from './images/shirt 17.jpeg';
+import image18 from './images/shirt 18.jpeg';
+import image19 from './images/shirt 19.jpg';
+import image20 from './images/shirt 20.jpg';
+import image21 from './images/shirt 21.jpg';
+import image22 from './images/shirt 22.jpg';
+import image23 from './images/shirt 23.jpg';
+import image24 from './images/shirt 24.jpg';
+import image25 from './images/shirt 25.jpg';
+
+
 
 
 export const products = [
@@ -89,16 +104,6 @@ export const products = [
     showSizeOptions: true,
   },
   {
-    id: 20,
-    name: 'EMotion T-Shirt',
-    price: 1000,
-    image: image20,
-    regularPrice: 1400,
-    salePrice: 1000,
-    fit: 'Slim',
-    showSizeOptions: true,
-  },
-  {
     id: 9,
     name: '3 Diamonds Black T-Shirt',
     price: 1000,
@@ -125,6 +130,152 @@ export const products = [
     image: image11,
     regularPrice: 1400,
     salePrice: 1000,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+
+  {
+    id: 12,
+    name: 'Black Urban Tee ',
+    price: 1100,
+    image: image12,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+
+  {
+    id: 13,
+    name: 'Forestgreen Urban Tee',
+    price: 1100,
+    image: image13,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+  {
+    id: 14,
+    name: 'Navy blue Urban Tee',
+    price: 1100,
+    image: image14,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+  {
+    id: 15,
+    name: 'Busicty Urban Tee',
+    price: 1100,
+    image: image15,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+  {
+    id: 16,
+    name: ' Nuicdre white yellow Tee ',
+    price: 1100,
+    image: image16,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+  {
+    id: 17,
+    name: 'Nuicdre white grey Tee',
+    price: 1100,
+    image: image17,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+  {
+    id: 18,
+    name: 'Nuicdre Black yellow Tee',
+    price: 1100,
+    image: image18,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+  {
+    id: 19,
+    name: 'Zipped Polo Black',
+    price: 1100,
+    image: image19,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+
+  {
+    id: 20,
+    name: 'Zipped Polo Navy Blue',
+    price: 1100,
+    image: image20,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+  {
+    id: 21,
+    name: 'Zipped Polo grey',
+    price: 1100,
+    image: image21,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+  {
+    id: 22,
+    name: 'Zipped Polo white',
+    price: 1100,
+    image: image22,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+
+  {
+    id: 23,
+    name: 'Zipped Polo White',
+    price: 1100,
+    image: image23,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+
+  {
+    id: 24,
+    name: 'Nuilbata Black Polo',
+    price: 1100,
+    image: image24,
+    regularPrice: 1500,
+    salePrice: 1100,
+    fit: 'Slim',
+    showSizeOptions: true,
+  },
+
+  {
+    id: 25,
+    name: 'Nuilbata Orange Polo',
+    price: 1100,
+    image: image25,
+    regularPrice: 1500,
+    salePrice: 1100,
     fit: 'Slim',
     showSizeOptions: true,
   },
