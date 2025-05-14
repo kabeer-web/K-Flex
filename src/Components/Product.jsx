@@ -23,7 +23,13 @@ import image22 from './images/shirt 22.jpg';
 import image23 from './images/shirt 23.jpg';
 import image24 from './images/shirt 24.jpg';
 import image25 from './images/shirt 25.jpg';
-
+import image26 from './images/shirt 26.jpg';
+import image27 from './images/shirt 27.jpg';
+import image28 from './images/shirt 28.jpg';
+import image29 from './images/shirt 29.jpg';
+import image30 from './images/shirt 30 .jpg';
+import image31 from './images/shirt 31.jpg';
+import image32 from './images/shirt 32.jpg';
 
 
 
@@ -279,6 +285,76 @@ export const products = [
     fit: 'Slim',
     showSizeOptions: true,
   },
+{
+  id: 26,
+  name: 'Bird printed White t-shirt',
+  price: 1100,
+  image: image26,
+  regularPrice: 1500,
+  salePrice: 1100,
+  fit: 'Slim',
+  showSizeOptions: true,
+},
+{
+  id: 27,
+  name: 'Bird printed Brown t-shirt',
+  price: 1100,
+  image: image27,
+  regularPrice: 1500,
+  salePrice: 1100,
+  fit: 'Slim',
+  showSizeOptions: true,
+},
+{
+  id: 28,
+  name: 'Bird printed Black t-shirt',
+  price: 1100,
+  image: image28,
+  regularPrice: 1500,
+  salePrice: 1100,
+  fit: 'Slim',
+  showSizeOptions: true,
+},
+{
+  id: 29,
+  name: 'side Zip Black T-shirt',
+  price: 1200,
+  image: image29,
+  regularPrice: 1500,
+  salePrice: 1200,
+  fit: 'Slim',
+  showSizeOptions: true,
+},
+{
+  id: 30,
+  name: 'side Zip lime green T-shirt',
+  price: 1200,
+  image: image30,
+  regularPrice: 1500,
+  salePrice: 1200,
+  fit: 'Slim',
+  showSizeOptions: true,
+},
+{
+  id: 31,
+  name: 'side Zip Red T-shirt',
+  price: 1200,
+  image: image31,
+  regularPrice: 1500,
+  salePrice: 1200,
+  fit: 'Slim',
+  showSizeOptions: true,
+},
+{
+  id: 32,
+  name: 'side Zip white T-shirt',
+  price: 1200,
+  image: image32,
+  regularPrice: 1500,
+  salePrice: 1200,
+  fit: 'Slim',
+  showSizeOptions: true,
+},
 
 
 ];
